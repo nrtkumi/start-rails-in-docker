@@ -1,0 +1,8 @@
+version: '3'
+services:
+  rails:
+    image: ruby:2.5.1
+    command: tail -f /dev/null
+    container_name: rails
+    volumes:
+      - .:/app
